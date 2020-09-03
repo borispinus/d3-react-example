@@ -1,0 +1,26 @@
+.tooltip {
+    background-color: lightblue;
+    pointer-events: none;
+    border-radius: 2px;
+}
+.tooltip-content {
+    padding: 10px;
+    .item {
+        display: flex;
+        align-items: center;
+    }
+    .item:before {
+        display: block;
+        margin-right: 10px;
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-color: green;
+    }
+    .top:before {
+        background: green;
+    }   
+    .bottom:before {
+        background: yellow;
+    }   
+}

@@ -1,0 +1,26 @@
+.legend {
+    margin-left: 20px;
+    padding: 10px;
+    .item {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        &.disabled {
+            color: grey
+        }
+    }
+    .item:before {
+        display: block;
+        margin-right: 10px;
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-color: green;
+    }
+    .top:before {
+        background: green;
+    }   
+    .bottom:before {
+        background: yellow;
+    }   
+}
