@@ -6,8 +6,10 @@ import { genData, DATA_LAYER } from './helpers';
 import './App.scss';
 import Legend from './Legend/Legend';
 
-const WIDTH = 1000;
+const WIDTH = window.innerWidth;
 const HEIGHT = 500;
+
+const PADDING_BOTTOM = 50;
 
 
 function App() {
@@ -25,7 +27,7 @@ function App() {
   return (
     <div className="App">
        <svg height={HEIGHT} width={WIDTH}>
-          <BarChart data={data} width={WIDTH} height={HEIGHT} layers={layers}/>
+          <BarChart data={data} width={WIDTH} height={HEIGHT-PADDING_BOTTOM} layers={layers}/>
        </svg>
        <button onClick={() => setData(genData())}>Новые данные</button>
        <Legend activeLayers={layers} onItemClick={handleLegendItemClick} />
