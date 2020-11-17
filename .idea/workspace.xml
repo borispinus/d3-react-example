@@ -4,9 +4,7 @@
     <list default="true" id="c518b346-7d5e-4a12-a6f9-0fe9cca5bea8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BarChart/BarChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/BarChart/BarChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BarChart/Tooltip/Tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/BarChart/Tooltip/Tooltip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BarChart/Bar/Bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/BarChart/Bar/Bar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../widget-poverka" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,6 +59,9 @@
       <workItem from="1603708992090" duration="28646000" />
       <workItem from="1603813047885" duration="106000" />
       <workItem from="1603813273403" duration="616000" />
+      <workItem from="1605460001758" duration="599000" />
+      <workItem from="1605476131103" duration="5932000" />
+      <workItem from="1605633254304" duration="2365000" />
     </task>
     <servers />
   </component>
@@ -72,17 +73,37 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="676" y="289" width="624" height="526" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1599131795592" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1603841866550">
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1605634936972">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603841866550" />
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1605634936972" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1605514109632">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605514109632" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1599132047631">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1599132047631" />
+    <state x="424" y="38" key="VCS.ChangeListViewerDialog" timestamp="1605635057128">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="424" y="38" key="VCS.ChangeListViewerDialog/0.0.1280.680@0.0.1280.680" timestamp="1605635057128" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1603744324050">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1603744324050" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/BarChart/Axis/Axis.js</url>
+          <line>3</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

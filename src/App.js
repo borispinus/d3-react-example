@@ -9,7 +9,7 @@ import Legend from './Legend/Legend';
 const WIDTH = window.innerWidth;
 const HEIGHT = 500;
 
-const PADDING_BOTTOM = 50;
+const PADDING_BOTTOM = 100;
 
 
 function App() {
