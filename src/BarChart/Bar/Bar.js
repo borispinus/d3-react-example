@@ -6,6 +6,7 @@ const Bar = ({d, onMouseLeave, onMouseEnter, layers, heightScale, widthScale, he
     const showBottom = layers.includes(DATA_LAYER.BOTTOM);
     return (
         <g key={d.index} transform={`translate(${widthScale(d.index)}, 0)`}
+           className="rect_g"
            onMouseEnter={() => onMouseEnter(d)}
            onMouseLeave={onMouseLeave}>
             {showTop && <rect

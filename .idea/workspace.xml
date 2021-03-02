@@ -5,6 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BarChart/Bar/Bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/BarChart/Bar/Bar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BarChart/BarChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/BarChart/BarChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,10 @@
       <workItem from="1603813273403" duration="616000" />
       <workItem from="1605460001758" duration="599000" />
       <workItem from="1605476131103" duration="5932000" />
-      <workItem from="1605633254304" duration="2365000" />
+      <workItem from="1605633254304" duration="24078000" />
+      <workItem from="1605792342796" duration="598000" />
+      <workItem from="1614524709599" duration="17541000" />
+      <workItem from="1614640994247" duration="14827000" />
     </task>
     <servers />
   </component>
@@ -69,30 +75,22 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="676" y="289" width="624" height="526" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1599131795592">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="676" y="289" width="624" height="526" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1599131795592" />
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1605634936972">
+    <state x="409" y="43" key="RollbackChangesDialog" timestamp="1614655692050">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1605634936972" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1605514109632">
+    <state x="409" y="43" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1614655692050" />
+    <state x="347" y="73" width="587" height="534" key="find.popup" timestamp="1614642772566">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605514109632" />
-    <state x="482" y="187" key="SettingsEditor" timestamp="1599132047631">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1599132047631" />
-    <state x="424" y="38" key="VCS.ChangeListViewerDialog" timestamp="1605635057128">
+    <state x="347" y="73" width="587" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1614642772566" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1614651051931">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="424" y="38" key="VCS.ChangeListViewerDialog/0.0.1280.680@0.0.1280.680" timestamp="1605635057128" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1603744324050">
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1614651051931" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1614651045720">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1603744324050" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1614651045720" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -100,7 +98,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/BarChart/Axis/Axis.js</url>
           <line>3</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
